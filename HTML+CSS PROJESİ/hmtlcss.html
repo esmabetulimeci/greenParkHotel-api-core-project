@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Esma Betül İmeci'nin Kişisel Web Sitesi</title>
+  <meta name="description" content="Esma Betül İmeci'nin Kişisel Web Sitesi">
+  <meta name="keywords" content="esma,betül,imeci,css,html5,javascript">
+
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #sayfa {
+      width: 400px;
+      min-height: 610px;
+      border-style: solid;
+      border-width: 1px;
+      margin: auto;
+    }
+
+    /*Banner */
+    #banner {
+      width: 398px;
+      height: 100px;
+      border-style: solid;
+      border-width: 1px;
+      background-color: darkslateblue;
+      margin: auto;
+    }
+
+    /*Logo */
+    #logo {
+      width: 100px;
+      height: 80x;
+      border-style: dotted;
+      border-width: 1px;
+      border-color: white;
+      background-color: white;
+      position: relative;
+      top: 10px;
+      left: 10px;
+    }
+
+    /*Sosyal Medya İkonları */
+    #medya {
+      width: 150px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px;
+      background-color: white;
+      position: relative;
+      float: right;
+      top: 50px;
+      right: 10px;
+
+    }
+
+    /*Anamenu ul */
+
+    #anamenu {
+      width: 398px;
+      height: 50px;
+      border-style: dotted;
+      border-width: 1px;
+      background-color: pink;
+      margin: auto;
+      /* padding: 5px; */
+    }
+
+    #anamenu ul {
+      list-style-type: none;
+    }
+
+    #anamenu ul li {
+      width: 80px;
+      border-style: solid;
+      border-width: 3px;
+      border-radius: 8px;
+      border-color:crimson;
+      background-color: white;
+      float: left;
+      padding: 5px;
+      margin-left: 9px;
+      position: relative;
+      top: 10px;
+      left: 28px;
+      text-align: center;
+
+    }
+
+    
+    #anamenu ul a{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px;
+
+    }
+
+    #anamenu ul a:hover{
+      color : green;
+    } 
+
+    /*İçerik ve Yan Menü Kodları */
+
+    #icerik{
+      width: 300px;
+      min-height: 400px;
+      border-style: solid;
+      border-width: 1px;
+      background-color: white;
+      float: left;
+
+    }
+
+    #yanmenu{
+      width: 96px;
+      min-height:400px;
+      border-style: solid;
+      border-width: 1px;
+      background-color: crimson;
+      float: left;
+
+    }
+    .resim{
+      float: left;
+      width: 100px;
+      margin: 5px;
+    }
+    #altmenu{
+      width: 398px;
+      height: 50px;
+      border-width:1px;
+      background-color: cadetblue;
+      float: left;
+    }
+    #altmenu a{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 10px;
+      font-weight: bolder;
+      color: black;
+      text-decoration: none;
+      text-align: center;
+    }
+    #altmenu a:hover{
+      color: gray;
+      text-decoration:underline;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div id="sayfa">
+    <header id="banner">
+
+      <div id="medya">
+        <a href="https://github.com/esmaimeci"><img id="ikon" src="resimler/github.jpg" width="45" height="40"></a>
+        <a href="https://www.linkedin.com/in/esma-bet%C3%BCl-imeci-232589185/"><img id="ikon"
+            src="resimler/linnkedin.png" width="45" height="40"></a>
+        <a href="https://www.instagram.com/esmaimeciii/"><img id="ikon" src="resimler/instagram.png" width="45"
+            height="40"></a>
+      </div>
+
+      <div id="logo">
+        <a href="index.html"><img src="resimler/esma.jpg" title="Esma Betül İmeci">
+      </div>
+    </header>
+
+    <nav id="anamenu">
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="ben-kimim.html">Ben Kimim?</a></li>
+        <li><a href="iletisim">İletişim</a></li>
+      </ul>
+    </nav>
+    <article id="icerik">
+    <img src="resimler/esma.jpg"
+    alt="desen" title="desen" width="100px" margin="5px">
+    <h4 style="color:red ;">BENİM CSS!Lİ WEB SİTEM</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tellus ex, cursus non volutpat sed, euismod cursus sem. Aliquam vel lobortis enim. Vestibulum ut ante quis odio ultricies mattis. Suspendisse vel erat eget erat ultrices venenatis ac a lacus. Cras id risus id tortor dapibus tincidunt quis nec orci. Sed et rutrum tortor. Phasellus sodales blandit pellentesque. Mauris at dapibus tortor. Aenean metus ligula, viverra sed enim sit amet, ullamcorper efficitur metus. Ut at iaculis tortor. Vivamus dapibus urna eu nibh posuere, vitae faucibus massa ornare.</p>
+    </article>
+    <aside id="yanmenu">
+      <h4>MY WEBSİTE</h4>
+      <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."></p>
+    </aside>
+    <footer id="altmenu">
+      <a href="index.html">Anasayfa</a>   I
+      <a href="ben-kimim.html">Ben Kimim?</a> I
+      <a href="iletisim">İletişim</a> I
+      <p>TÜM HAKLARI SAKLIDIR</p>
+    </footer>
+  </div>
+</body>
+
+</html>

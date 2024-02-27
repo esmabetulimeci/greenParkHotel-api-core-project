@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+ body{
+    background-image: url(docs/wall.jpg) ;
+
+ }
+ .center-container{
+    position: relative;
+    width: 80%;
+    max-width: 21.9rem;
+    margin: 0 auto;
+    margin-top: 10.8rem;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    background-color: var(--white);
+ }
+
+ .header-bg{
+    width: 100%;
+    max-width: inherit;
+    height: 90%;
+    min-height: 8.8rem;
+    background-image: url(docs/wall.jpg);
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    border: solid;
+ }
+
+ .profile-pic{
+    justify-content: center;
+    background-image: url(docs/esma.jpg);
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    min-width: 6rem;
+    min-height:6rem ;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid var(--white);
+ }
+ .personal-details{
+    margin-top: 20%;
+    line-height: 25px;
+ }
+
+ .personal-details h3{
+    display: inline-block;
+    color: var(--white);
+    font-size: 18px;
+ }
+
+ .personal-details h3 span{
+    color:wheat;
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0;
+ }
+ .location{
+    color: brown;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 5px;
+ }
+
+ hr{
+    margin-top: 1.5rem;
+    opacity:0.5 ;
+ }
+ .info-container {
+    display: inline-flex;
+    flex-direction: row;
+    width: inherit;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1.5rem;
+    line-height: 20px;
+ }
+
+ .info-container h3{
+    font-size: 18px;
+    color: burlywood;
+    font-weight: 700;
+ }
+
+ .info-container p{
+    font-size: 10px;
+    color: var(--white);
+    letter-spacing: 2px;
+ }
+ @media screen and (max-width: 1201px) {
+    body {
+      background-position: top -700px left -500px, bottom -950px right -450px;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    body {
+      background-position: top -600px left -400px, bottom -850px right -400px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-position: top -250px left -250px, bottom -450px right -250px;
+    }
+    .center-container {
+      margin-top: 9.3rem;
+    }
+}

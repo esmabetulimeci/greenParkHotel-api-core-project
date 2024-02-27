@@ -1,0 +1,27 @@
+Cafe Otomasyonu:
+  Gereksinim Analizi:  
+  	İki Giriş Paneli:
+  		- Müşteri paneli
+  		- Yönetici paneli
+
+  	Yönetici Paneli:
+  		- Müşterileri görebilir.
+  		- Tedarikçileri görebilir.
+  		- Siparişleri görebilir.
+  		- Rapor yazdırabilir.
+
+  	Müşteri Paneli:
+  		- Tüm ürünleri görebilir. (Ürünler)
+  		- Ürünleri CRUD işlemleri yapabilir.
+  		- Kendi siparişlerini görebilir. (Liste)
+  		- Siparişleri arasında arama yapabilir.
+  		- Sadece kendi siparişlerini görebilir.
+
+    Ürünler:
+      - Ürün kategorisi olmalı. 
+      - Ürünler ComboBox içerisinde listelenmeli. 
+
+  	Tech Stack:
+      - C# 
+      - ADO.Net
+      - MS SQL Server 

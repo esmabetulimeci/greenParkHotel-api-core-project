@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(rgba(255, 217, 0, 0.848), pink);
+    text-align: center;
+
+
+
+}
+
+h1{
+    text-align: center;
+    color:goldenrod;
+}
+
+.contaainer {
+    margin: 100px 0 0 200px;
+}
+
+.row {
+    width: 100%;
+    height: 60px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    margin: 10px 0 0 0;
+}
+
+button {
+    color: black;
+    font-weight: 500;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: rgba(243, 219, 219, 0.834);
+    box-shadow: 0 0 10px;
+    font-size: 15px;
+    margin-left: 5px;
+    outline: none;
+    font-family: sans-serif;
+
+
+}
+
+button:active {
+    box-shadow: 1px 1px 2px;
+}
+
+.print {
+    width: 85px;
+    border-radius: 10px;
+}
+
+.back {
+    width: 148px;
+    border-radius: 10px;
+
+}
+
+.tab {
+    width: 115px;
+    border-radius: 10px;
+}
+
+.cap {
+    width: 96px;
+    border-radius: 10px;
+}
+
+.enter-btn {
+    width: 109px;
+    border-radius: 10px;
+
+}
+
+.shift {
+    width: 135px;
+    border-radius: 10px;
+
+}
+
+.last {
+    width: 56px;
+    border-radius: 10px;
+
+}
+
+.space {
+    width: 398px;
+    border-radius: 10px;
+}
