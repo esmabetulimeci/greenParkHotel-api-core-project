@@ -46,5 +46,6 @@ namespace HotelProject.WebApi.Controllers
             var values = _bookingService.TGetByID(id);
             return Ok(values);
         }
+       
     }
 }
