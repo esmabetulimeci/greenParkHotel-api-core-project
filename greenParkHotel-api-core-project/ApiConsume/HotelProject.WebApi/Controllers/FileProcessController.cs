@@ -8,13 +8,13 @@ namespace HotelProject.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FileImageController : ControllerBase
+    public class FileProcessController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> UploadImage([FromForm] IFormFile file)
+        public async Task<IActionResult> UploadFile([FromForm] IFormFile file)
         {
             var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "images/" + fileName);
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "files/" + fileName);
             var stream = new FileStream(path, FileMode.Create);
             await file.CopyToAsync(stream);
             return Created("", file);
